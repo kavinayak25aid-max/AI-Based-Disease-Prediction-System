@@ -1,0 +1,68 @@
+{
+    "timestamp": "2026-10-11T14:21:36.574360",
+    "primary_model": {
+        "name": "DecisionTreeClassifier",
+        "criterion": "gini",
+        "accuracy": 0.8276,
+        "precision_weighted": 0.861,
+        "recall_weighted": 0.8276,
+        "f1_score_weighted": 0.822
+    },
+    "comparison_model": {
+        "name": "MultinomialNB",
+        "accuracy": 0.9828,
+        "precision_weighted": 0.9862,
+        "recall_weighted": 0.9828,
+        "f1_score_weighted": 0.982
+    },
+    "data_summary": {
+        "num_symptoms": 27,
+        "num_diseases": 16,
+        "train_samples": 230,
+        "test_samples": 58,
+        "split_type": "Stratified Split",
+        "random_seed": 42
+    },
+    "top_features": [
+        {
+            "symptom": "sweating",
+            "importance": 0.104
+        },
+        {
+            "symptom": "mild_fever",
+            "importance": 0.0813
+        },
+        {
+            "symptom": "dark_urine",
+            "importance": 0.0738
+        },
+        {
+            "symptom": "muscle_pain",
+            "importance": 0.0731
+        },
+        {
+            "symptom": "high_fever",
+            "importance": 0.0723
+        },
+        {
+            "symptom": "continuous_sneezing",
+            "importance": 0.0589
+        },
+        {
+            "symptom": "stomach_pain",
+            "importance": 0.0565
+        },
+        {
+            "symptom": "cough",
+            "importance": 0.051
+        },
+        {
+            "symptom": "abdominal_pain",
+            "importance": 0.0485
+        },
+        {
+            "symptom": "diarrhoea",
+            "importance": 0.0458
+        }
+    ]
+}
