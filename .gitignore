@@ -25,3 +25,7 @@ Thumbs.db
 
 # Flask session / instance
 instance/
+
+# Generated reports and screenshots
+reports/
+screenshots/
